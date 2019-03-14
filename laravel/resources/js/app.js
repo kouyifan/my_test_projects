@@ -7,8 +7,15 @@
 
 require('./bootstrap');
 
-window.Vue = require('vue');
+// import ElementUI from 'element-ui'
+// import 'element-ui/lib/theme-chalk/index.css'
 
+window.Vue = require('vue');
+// window.PhotoSwipe = require('photoswipe');
+// window.PhotoSwipeUI_Default = require('./../../node_modules/photoswipe/src/js/ui/photoswipe-ui-default.js');
+
+
+// Vue.use(ElementUI)
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
